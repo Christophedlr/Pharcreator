@@ -1,0 +1,20 @@
+{
+    "name": "christophedlr/pharcreator",
+    "description": "Easy create your PHAR file",
+    "require": {
+        "php": "^7.2|^7.3|^7.4",
+        "symfony/console": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christophe Daloz - De Los Rios",
+            "email": "christophedlr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Christophedlr\\Pharcreator\\": "src/"
+        }
+    }
+}
